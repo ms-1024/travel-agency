@@ -42,7 +42,7 @@ export const getTripsForCountry = ({trips}, countryCode) => {
 
   // DONE - filter trips by countryCode
   //console.log('filtering trips by countryCode:', countryCode, filtered);
-  return filtered.length ? filtered[0] : {error: true};
+  return filtered.length ? filtered : {error: true};
 };
 
 /* ACTIONS */
