@@ -3,7 +3,7 @@ import OrderSummary from '../OrderSummary/OrderSummary';
 import {Row, Col} from 'react-flexbox-grid';
 import PropTypes from 'prop-types';
 import pricing from '../../../data/pricing.json';
-import OrderOption from '../OrderOption/OrderOptionDate.js';
+import OrderOption from '../OrderOption/OrderOption.js';
 
 const OrderForm = ({tripCost, options, setOrderOption}) => (
   <Row>
